@@ -235,7 +235,7 @@ public class AsteroidBelt : MonoBehaviour
         Random.InitState(asteroidBeltSeed);
         Transform[] transforms = new Transform[numberOfAsteroids];
 
-        // Spawn density amount belt objects for the belt
+        // Spawn belt objects for the asteroid belt
         for (int i = 0; i < numberOfAsteroids; i++)
         {
             // Retrieve a random angle and radius / distance value (Angle is in radians because Mathf
